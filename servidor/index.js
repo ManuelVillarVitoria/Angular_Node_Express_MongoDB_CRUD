@@ -5,6 +5,8 @@ const app = express();
 
 conectarDB();
 
+app.use(express.json());
+
 app.use('/api/productos', require('./routes/producto'));
 
 
