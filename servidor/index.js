@@ -5,9 +5,8 @@ const app = express();
 
 conectarDB();
 
-app.get('/', (req, res) => {
-    res.send('Hola Mundo')
-})
+app.use('/api/productos', require('./routes/producto'));
+
 
 app.listen(4000, () => {
     console.log('El servidor está corriendo perfectamente')
