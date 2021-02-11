@@ -8,3 +8,10 @@ body {
     font-size: 1.8rem;
     font-family: 'Montserrat', sans-serif;
 }
+
+
+@media (max-width: 413px) {
+    .titulo {
+        font-size: 1.4rem;
+    }
+}
