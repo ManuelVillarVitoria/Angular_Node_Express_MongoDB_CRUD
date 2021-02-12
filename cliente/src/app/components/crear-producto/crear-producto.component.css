@@ -2,3 +2,18 @@
     text-align: start;
     margin-left: 7px;
 }
+
+
+@media (max-width: 413px) {
+    .form-control-lg {
+        font-size: 0.9rem;
+    }
+
+    .btn-lg {
+        font-size: 0.9rem;
+    }
+
+    .text-danger {
+        font-size: 0.8rem;
+    }
+}
